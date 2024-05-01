@@ -5328,3 +5328,14 @@ logger.handlers[Idx].baseFilename D:\Project\Lua_project\AIR7XX\sdk_demo_env\log
 2024-05-02 02:10:47.324 my_api.py:114 INFO [None, None]
 2024-05-02 02:10:47.324 usb_device.py:2000 INFO sleep done
 2024-05-02 02:10:48.357 usb_device.py:2008 INFO search com done!
+2024-05-02 02:24:23.902 usb_device.py:952 INFO usb device sleep
+2024-05-02 02:24:23.903 my_api.py:114 INFO [None, None]
+2024-05-02 02:24:23.907 my_api.py:114 INFO [None, None]
+2024-05-02 02:24:23.907 usb_device.py:1724 INFO trace -> sleep
+2024-05-02 02:24:23.907 usb_device.py:3030 INFO quit Trace
+2024-05-02 02:24:24.014 my_api.py:114 INFO [None, None]
+2024-05-02 02:24:24.014 host_device.py:666 INFO task quit
+2024-05-02 02:24:24.014 my_api.py:114 INFO [None, None]
+2024-05-02 02:24:24.014 usb_device.py:3041 INFO task quit
+2024-05-02 02:24:24.286 core.py:246 INFO event loop closed
+2024-05-02 02:24:24.853 core.py:269 INFO end!
