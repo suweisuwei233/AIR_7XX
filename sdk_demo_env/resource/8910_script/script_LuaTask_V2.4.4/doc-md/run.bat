@@ -1,0 +1,1 @@
+luatos.exe main.lua

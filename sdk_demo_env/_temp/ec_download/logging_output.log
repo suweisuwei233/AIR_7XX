@@ -1,0 +1,652 @@
+2024-05-02 02:09:55,864 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000517,build time-2023-11-10 14:08:19
+2024-05-02 02:09:55,866 INFO     [FlashTop]    init
+2024-05-02 02:09:55,871 INFO     [FlashTop]    PreLoad para sync success
+2024-05-02 02:09:55,871 [Process-20044] INFO     [FlashTop]    do_main: cmd loadpara
+2024-05-02 02:09:55,871 [Process-20044] INFO     [FlashTop]    loadpara args 0x2d687b0 
+2024-05-02 02:09:55,876 [Process-20044] INFO     [PRFrame]    LoadPrMgrProc init loaded D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\PRMgrCfg.json
+2024-05-02 02:09:55,876 [Process-20044] INFO     [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+2024-05-02 02:09:55,879 [Process-20044] INFO     [Para]    LoadPara from cfgfile(D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\ec618_luatos_usb.ini) 
+2024-05-02 02:09:55,881 [Process-20044] INFO     [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+2024-05-02 02:09:55,881 [Process-20044] INFO     [PRFrame]    LdXPKPrMgrProc  not exist
+2024-05-02 02:09:55,883 [Process-20044] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xe7000
+2024-05-02 02:09:55,883 [Process-20044] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xce000
+2024-05-02 02:09:55,883 [Process-20044] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\script.bin, burnaddr 0x24d000
+2024-05-02 02:09:55,883 [Process-20044] INFO     [Para]    LoadPkgFlx
+2024-05-02 02:09:55,885 [Process-20044] INFO     [FlashTop]    Load para sync success
+2024-05-02 02:09:55,885 [Process-20044] INFO     [FlashTop]    LoadParaToArgs id args 0x2d687b0, opt_storage_list 0x2f95f20 "cp_flash"
+2024-05-02 02:09:55,886 [Process-20044] INFO     [FlashTop]    do_main: cmd flasherase, Thread0[21596]
+2024-05-02 02:09:55,889 [Process-20044] INFO     [Thread0]    ProcessStart[21596]
+2024-05-02 02:09:55,889 [Process-20044] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:55,889 [Process-20044] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:55,893 [Process-20044] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:09:55,893 [Process-20044] INFO     [Thread0]    DtrConditionAssign  1
+2024-05-02 02:09:55,893 [Process-20044] INFO     [Thread0]    RtsConditionAssign  1
+2024-05-02 02:09:56,395 [Process-20044] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:56,909 [Process-20044] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:56,909 [Process-20044] INFO     [Thread0]    ResetBoard(Normal Mod) finish
+2024-05-02 02:09:56,910 [Process-20044] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:56,910 [Process-20044] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:56,910 [Process-20044] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:56,910 [Process-20044] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:56,914 [Process-20044] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:09:56,915 [Process-20044] INFO     [Image]    pullup_qspi 1
+2024-05-02 02:09:56,915 [Process-20044] INFO     [Image]    genimghd args id 0x2faf570, opt_storage_list refcnt 6, id 0x2f95f20 
+2024-05-02 02:09:56,915 [Process-20044] INFO     [Image]    SetBaud 921600
+2024-05-02 02:09:56,915 [Process-20044] INFO     [Image]    Update Image Head Hash  b'\xe8\xe0\xc4\xd3\xfa\x65\x86\x52\x38\xe4\x0e\xe4\x83\xac\xcf\xcd\x74\x7e\xda\x68\x26\x92\x96\xab\xac\x86\xb3\x2c\x80\x9e\x74\x40'
+2024-05-02 02:09:56,916 [Process-20044] INFO     [Thread0]    TryDownload D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\agentboot_usb.bin start
+2024-05-02 02:09:56,916 [Process-20044] INFO     [Thread0]    image size=44984, hdsize=272
+2024-05-02 02:09:56,916 [Process-20044] INFO     [Thread0]    Preamble Send
+2024-05-02 02:09:56,923 [Process-20044] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:09:56,928 [Process-20044] INFO     [Thread0]    CompRomVerIntSingle 0000000201000000 suc
+2024-05-02 02:09:56,928 [Process-20044] INFO     [Thread0]    RVer 0000000201000000, chk suc, compare with version
+2024-05-02 02:09:56,931 [Process-20044] INFO     [Thread0]    Preamble Send
+2024-05-02 02:09:56,938 [Process-20044] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:09:56,943 [Process-20044] INFO     [Thread0]    CompRomVerIntSingle 0000000201000000 suc
+2024-05-02 02:09:56,943 [Process-20044] INFO     [Thread0]    RVer 0000000201000000, chk suc, compare with version
+2024-05-02 02:09:57,029 [Process-20044] INFO     [Thread0]    TryDownload agentboot success
+2024-05-02 02:09:57,045 [Process-20044] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:57,045 [Process-20044] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:57,045 [Process-20044] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:09:57,049 [Process-20044] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:09:57,050 [Process-20044] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:57,050 [Process-20044] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:57,050 [Process-20044] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:09:57,054 [Process-20044] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:09:57,054 [Process-20044] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:09:57,060 [Process-20044] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:09:57,063 [Process-20044] INFO     [Thread0]    LPCSetSyncStat(1)
+2024-05-02 02:09:57,064 [Process-20044] INFO     [Thread0]    Erase start, set wait time to :0x2 
+2024-05-02 02:09:57,284 [Process-20044] INFO     [Thread0]    Erase OK, [0xbcc000, 0x10000]
+2024-05-02 02:09:57,287 [Process-20044] INFO     [FlashTop]    flasherase finish, Thread0[21596]
+2024-05-02 02:09:57,287 [Process-20044] INFO     [Thread0]    ProcessEnd[21596]
+2024-05-02 02:09:58,133 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000517,build time-2023-11-10 14:08:19
+2024-05-02 02:09:58,134 INFO     [FlashTop]    init
+2024-05-02 02:09:58,138 INFO     [FlashTop]    PreLoad para sync success
+2024-05-02 02:09:58,138 [Process-13812] INFO     [FlashTop]    do_main: cmd loadpara
+2024-05-02 02:09:58,138 [Process-13812] INFO     [FlashTop]    loadpara args 0x2dd0930 
+2024-05-02 02:09:58,143 [Process-13812] INFO     [PRFrame]    LoadPrMgrProc init loaded D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\PRMgrCfg.json
+2024-05-02 02:09:58,143 [Process-13812] INFO     [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+2024-05-02 02:09:58,146 [Process-13812] INFO     [Para]    Log para no need
+2024-05-02 02:09:58,147 [Process-13812] INFO     [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+2024-05-02 02:09:58,147 [Process-13812] INFO     [PRFrame]    LdXPKPrMgrProc  not exist
+2024-05-02 02:09:58,148 [Process-13812] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xe7000
+2024-05-02 02:09:58,149 [Process-13812] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xce000
+2024-05-02 02:09:58,149 [Process-13812] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\script.bin, burnaddr 0x24d000
+2024-05-02 02:09:58,149 [Process-13812] INFO     [Para]    LoadPkgFlx
+2024-05-02 02:09:58,150 [Process-13812] INFO     [FlashTop]    Load para sync success
+2024-05-02 02:09:58,150 [Process-13812] INFO     [FlashTop]    LoadParaToArgs id args 0x2dd0930, opt_storage_list 0x2fc4bd8 "cp_flash"
+2024-05-02 02:09:58,151 [Process-13812] INFO     [FlashTop]    do_main: cmd flasherase, Thread0[19140]
+2024-05-02 02:09:58,154 [Process-13812] INFO     [Thread0]    ProcessStart[19140]
+2024-05-02 02:09:58,154 [Process-13812] INFO     [Thread0]    ResetBoard skip for straight download
+2024-05-02 02:09:58,154 [Process-13812] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:58,155 [Process-13812] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:58,159 [Process-13812] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:09:58,159 [Process-13812] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:09:58,160 [Process-13812] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:58,160 [Process-13812] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:58,160 [Process-13812] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:09:58,164 [Process-13812] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:09:58,164 [Process-13812] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:09:58,175 [Process-13812] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:09:58,178 [Process-13812] INFO     [Thread0]    LPCSetSyncStat(1)
+2024-05-02 02:09:58,178 [Process-13812] INFO     [Thread0]    Erase start, set wait time to :0x2 
+2024-05-02 02:09:58,937 [Process-13812] INFO     [Thread0]    Erase OK, [0xb84000, 0x48000]
+2024-05-02 02:09:58,940 [Process-13812] INFO     [FlashTop]    flasherase finish, Thread0[19140]
+2024-05-02 02:09:58,940 [Process-13812] INFO     [Thread0]    ProcessEnd[19140]
+2024-05-02 02:09:59,785 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000517,build time-2023-11-10 14:08:19
+2024-05-02 02:09:59,786 INFO     [FlashTop]    init
+2024-05-02 02:09:59,790 INFO     [FlashTop]    PreLoad para sync success
+2024-05-02 02:09:59,790 [Process-1892] INFO     [FlashTop]    do_main: cmd loadpara
+2024-05-02 02:09:59,790 [Process-1892] INFO     [FlashTop]    loadpara args 0x3118810 
+2024-05-02 02:09:59,795 [Process-1892] INFO     [PRFrame]    LoadPrMgrProc init loaded D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\PRMgrCfg.json
+2024-05-02 02:09:59,795 [Process-1892] INFO     [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+2024-05-02 02:09:59,798 [Process-1892] INFO     [Para]    Log para no need
+2024-05-02 02:09:59,799 [Process-1892] INFO     [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+2024-05-02 02:09:59,799 [Process-1892] INFO     [PRFrame]    LdXPKPrMgrProc  not exist
+2024-05-02 02:09:59,800 [Process-1892] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xe7000
+2024-05-02 02:09:59,801 [Process-1892] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xce000
+2024-05-02 02:09:59,801 [Process-1892] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\script.bin, burnaddr 0x24d000
+2024-05-02 02:09:59,801 [Process-1892] INFO     [Para]    LoadPkgFlx
+2024-05-02 02:09:59,803 [Process-1892] INFO     [FlashTop]    Load para sync success
+2024-05-02 02:09:59,803 [Process-1892] INFO     [FlashTop]    LoadParaToArgs id args 0x3118810, opt_storage_list 0x334b890 "cp_flash"
+2024-05-02 02:09:59,804 [Process-1892] INFO     [FlashTop]    do_main: cmd flasherase, Thread0[20840]
+2024-05-02 02:09:59,807 [Process-1892] INFO     [Thread0]    ProcessStart[20840]
+2024-05-02 02:09:59,807 [Process-1892] INFO     [Thread0]    ResetBoard skip for straight download
+2024-05-02 02:09:59,807 [Process-1892] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:59,807 [Process-1892] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:59,812 [Process-1892] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:09:59,812 [Process-1892] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:09:59,814 [Process-1892] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:09:59,814 [Process-1892] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:09:59,814 [Process-1892] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:09:59,817 [Process-1892] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:09:59,817 [Process-1892] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:09:59,828 [Process-1892] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:09:59,832 [Process-1892] INFO     [Thread0]    LPCSetSyncStat(1)
+2024-05-02 02:09:59,832 [Process-1892] INFO     [Thread0]    Erase start, set wait time to :0x2 
+2024-05-02 02:09:59,894 [Process-1892] INFO     [Thread0]    Erase OK, [0xbfc000, 0x4000]
+2024-05-02 02:09:59,899 [Process-1892] INFO     [FlashTop]    flasherase finish, Thread0[20840]
+2024-05-02 02:09:59,899 [Process-1892] INFO     [Thread0]    ProcessEnd[20840]
+2024-05-02 02:10:00,743 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000517,build time-2023-11-10 14:08:19
+2024-05-02 02:10:00,744 INFO     [FlashTop]    init
+2024-05-02 02:10:00,749 INFO     [FlashTop]    PreLoad para sync success
+2024-05-02 02:10:00,749 [Process-19208] INFO     [FlashTop]    do_main: cmd loadpara
+2024-05-02 02:10:00,749 [Process-19208] INFO     [FlashTop]    loadpara args 0x2ef9730 
+2024-05-02 02:10:00,754 [Process-19208] INFO     [PRFrame]    LoadPrMgrProc init loaded D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\PRMgrCfg.json
+2024-05-02 02:10:00,754 [Process-19208] INFO     [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+2024-05-02 02:10:00,757 [Process-19208] INFO     [Para]    Log para no need
+2024-05-02 02:10:00,757 [Process-19208] INFO     [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+2024-05-02 02:10:00,758 [Process-19208] INFO     [PRFrame]    LdXPKPrMgrProc  not exist
+2024-05-02 02:10:00,759 [Process-19208] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xe7000
+2024-05-02 02:10:00,760 [Process-19208] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xce000
+2024-05-02 02:10:00,760 [Process-19208] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\script.bin, burnaddr 0x24d000
+2024-05-02 02:10:00,760 [Process-19208] INFO     [Para]    LoadPkgFlx
+2024-05-02 02:10:00,761 [Process-19208] INFO     [FlashTop]    Load para sync success
+2024-05-02 02:10:00,761 [Process-19208] INFO     [FlashTop]    LoadParaToArgs id args 0x2ef9730, opt_storage_list 0x3124c00 "cp_flash"
+2024-05-02 02:10:00,762 [Process-19208] INFO     [FlashToolCLI]    Burnbatch Start, burn imglist ['bootloader', 'system', 'cp_system'].
+2024-05-02 02:10:00,763 [Process-19208] INFO     [FlashTop]    do_main: cmd burnag, Thread0[18784]
+2024-05-02 02:10:00,766 [Process-19208] INFO     [Thread0]    ProcessStart[18784]
+2024-05-02 02:10:00,766 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:00,766 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:00,770 [Process-19208] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:00,771 [Process-19208] INFO     [Thread0]    DtrConditionAssign  1
+2024-05-02 02:10:00,771 [Process-19208] INFO     [Thread0]    RtsConditionAssign  1
+2024-05-02 02:10:01,278 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:01,789 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:01,789 [Process-19208] INFO     [Thread0]    ResetBoard(Normal Mod) finish
+2024-05-02 02:10:01,790 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:01,790 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:01,790 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:01,790 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:01,794 [Process-19208] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:01,794 [Process-19208] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:10:01,795 [Process-19208] INFO     [Thread0]    Burn OK!
+2024-05-02 02:10:01,795 [Process-19208] INFO     [Thread0]    ProcessEnd[18784]
+2024-05-02 02:10:01,795 [Process-19208] INFO     [FlashTop]    do_main: cmd burnone, Thread0[18784]
+2024-05-02 02:10:01,797 [Process-19208] INFO     [Thread0]    ProcessStart[18784]
+2024-05-02 02:10:01,798 [Process-19208] INFO     [Thread0]    ResetBoard skip for straight download
+2024-05-02 02:10:01,798 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:01,798 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:01,802 [Process-19208] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:01,802 [Process-19208] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:10:01,803 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:01,803 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:01,803 [Process-19208] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:10:01,806 [Process-19208] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:03,822 [Process-19208] INFO     [Thread0]    LPCSyncDetect try recovery
+2024-05-02 02:10:03,822 [Process-19208] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:10:03,835 [Process-19208] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:10:03,838 [Process-19208] INFO     [Thread0]    LPCSetSyncStat(1)
+2024-05-02 02:10:03,838 [Process-19208] INFO     [Thread0]    LPCSyncDetect: success
+2024-05-02 02:10:03,838 [Process-19208] INFO     [Thread0]    DownloadBurnOne imgtype(bootloader)
+2024-05-02 02:10:03,838 [Process-19208] INFO     [Thread0]    DownloadBurnOne imgtype(bootloader), burnaddr(0x0), imgid(0x4f424d49)
+2024-05-02 02:10:03,839 [Process-19208] INFO     [Thread0]    DownloadBurnOne file D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\image_ec618\ap_bootloader.bin 
+2024-05-02 02:10:03,840 [Process-19208] WARNING  [Image]    UpdateDribbleCfg before burnaddr config
+2024-05-02 02:10:03,840 [Process-19208] INFO     [Image]    Update Image Body Hash  b'\xcc\x5a\x57\x4e\x3b\x82\x1e\x19\xef\x91\xcd\xbb\xc5\x06\x31\x98\x4f\x5b\x1a\x45\xbd\xfd\xa9\x05\xc8\x16\x30\xd5\x88\x79\x8c\x43'
+2024-05-02 02:10:03,840 [Process-19208] INFO     [Image]    Update Image Head Hash  b'\xca\x1e\x33\x77\x89\xf7\x45\xd1\xbf\xf9\x04\xa5\x48\x50\xb0\xad\xce\x8b\xc5\x00\x09\x0d\x82\xa8\xbd\xe7\x25\x53\x57\x9c\xae\xa8'
+2024-05-02 02:10:03,841 [Process-19208] INFO     [Thread0]    TryDownload D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\image_ec618\ap_bootloader.bin start
+2024-05-02 02:10:03,841 [Process-19208] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2024-05-02 02:10:03,846 [Process-19208] INFO     [Thread0]    LPCBurnOneTrig success
+2024-05-02 02:10:03,846 [Process-19208] INFO     [Thread0]    DLDPreSync Preamble Send
+2024-05-02 02:10:04,367 [Process-19208] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2024-05-02 02:10:04,372 [Process-19208] INFO     [Thread0]    image size=113298, hdsize=272
+2024-05-02 02:10:04,372 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:04,372 [Process-19208] INFO     [Thread0]    imginfo.size=113298, RemainLen=113298, Offset=0
+2024-05-02 02:10:04,372 [Process-19208] INFO     [Thread0]    {ap_bootloader.bin-percent files transferred   0%}
+2024-05-02 02:10:04,372 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:04,372 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:04,385 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:04,389 [Process-19208] INFO     [Thread0]    imginfo.size=113298, RemainLen=113026, Offset=272
+2024-05-02 02:10:04,390 [Process-19208] INFO     [Thread0]    {ap_bootloader.bin-percent files transferred   0%}
+2024-05-02 02:10:04,390 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:04,390 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:04,861 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:05,056 [Process-19208] INFO     [Thread0]    imginfo.size=113298, RemainLen=47490, Offset=65808
+2024-05-02 02:10:05,056 [Process-19208] INFO     [Thread0]    {ap_bootloader.bin-percent files transferred   58%}
+2024-05-02 02:10:05,056 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:05,056 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:05,457 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:05,647 [Process-19208] INFO     [Thread0]    imginfo.size=113298, RemainLen=0, Offset=65808
+2024-05-02 02:10:05,648 [Process-19208] INFO     [Thread0]    {ap_bootloader.bin-percent files transferred   100%}
+2024-05-02 02:10:05,648 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:05,648 [Process-19208] INFO     [Thread0]    TryDownload success
+2024-05-02 02:10:05,649 [Process-19208] INFO     [Thread0]    Burn OK!
+2024-05-02 02:10:05,649 [Process-19208] INFO     [Thread0]    ProcessEnd[18784]
+2024-05-02 02:10:05,649 [Process-19208] INFO     [FlashTop]    do_main: cmd burnone, Thread0[18784]
+2024-05-02 02:10:05,652 [Process-19208] INFO     [Thread0]    ProcessStart[18784]
+2024-05-02 02:10:05,652 [Process-19208] INFO     [Thread0]    ResetBoard skip for straight download
+2024-05-02 02:10:05,652 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:05,653 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:05,656 [Process-19208] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:05,656 [Process-19208] INFO     [Thread0]    agentboot is downloaded already
+2024-05-02 02:10:05,657 [Process-19208] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:10:05,657 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:05,658 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:05,658 [Process-19208] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:10:05,661 [Process-19208] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:05,661 [Process-19208] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:10:05,671 [Process-19208] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:10:05,676 [Process-19208] INFO     [Thread0]    LPCSyncDetect: success
+2024-05-02 02:10:05,676 [Process-19208] INFO     [Thread0]    DownloadBurnOne imgtype(system)
+2024-05-02 02:10:05,676 [Process-19208] INFO     [Thread0]    DownloadBurnOne imgtype(system), burnaddr(0x24000), imgid(0x444b4249)
+2024-05-02 02:10:05,676 [Process-19208] INFO     [Thread0]    DownloadBurnOne file D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\image_ec618\ap_demo-flash.bin 
+2024-05-02 02:10:05,685 [Process-19208] INFO     [Image]    Update Image Body Hash  b'\xe5\xeb\x01\x75\xf4\x4b\x65\xc2\x84\x09\x2b\x12\xb1\x8b\xb6\x6d\x06\xe7\xd7\x68\x49\xc7\x50\x47\xb6\x05\xbe\xe3\x33\xf7\x14\x40'
+2024-05-02 02:10:05,685 [Process-19208] INFO     [Image]    Update Image Head Hash  b'\xa5\xfa\x50\x6a\x86\x8b\x06\x5c\x57\x4e\x01\xe7\x50\x7c\xc5\xda\x33\xb2\x0c\x57\x51\x34\xb6\xaa\xad\x23\x91\x5b\x95\x25\x46\x90'
+2024-05-02 02:10:05,695 [Process-19208] INFO     [Thread0]    TryDownload D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\image_ec618\ap_demo-flash.bin start
+2024-05-02 02:10:05,695 [Process-19208] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2024-05-02 02:10:05,700 [Process-19208] INFO     [Thread0]    LPCBurnOneTrig success
+2024-05-02 02:10:05,700 [Process-19208] INFO     [Thread0]    DLDPreSync Preamble Send
+2024-05-02 02:10:06,211 [Process-19208] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2024-05-02 02:10:06,215 [Process-19208] INFO     [Thread0]    image size=2015936, hdsize=272
+2024-05-02 02:10:06,215 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:06,215 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=2015936, Offset=0
+2024-05-02 02:10:06,216 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   0%}
+2024-05-02 02:10:06,216 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:06,216 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:06,228 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:06,233 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=2015664, Offset=272
+2024-05-02 02:10:06,233 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   0%}
+2024-05-02 02:10:06,234 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:06,234 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:06,683 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:06,875 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1950128, Offset=65808
+2024-05-02 02:10:06,876 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   3%}
+2024-05-02 02:10:06,876 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:06,876 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:07,234 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:07,433 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1884592, Offset=131344
+2024-05-02 02:10:07,434 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   6%}
+2024-05-02 02:10:07,434 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:07,434 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:07,784 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:07,975 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1819056, Offset=196880
+2024-05-02 02:10:07,976 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   9%}
+2024-05-02 02:10:07,976 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:07,976 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:08,325 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:08,519 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1753520, Offset=262416
+2024-05-02 02:10:08,520 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   13%}
+2024-05-02 02:10:08,520 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:08,520 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:08,864 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:09,064 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1687984, Offset=327952
+2024-05-02 02:10:09,065 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   16%}
+2024-05-02 02:10:09,065 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:09,065 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:09,413 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:09,609 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1622448, Offset=393488
+2024-05-02 02:10:09,609 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   19%}
+2024-05-02 02:10:09,609 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:09,609 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:09,964 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:10,156 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1556912, Offset=459024
+2024-05-02 02:10:10,156 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   22%}
+2024-05-02 02:10:10,156 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:10,157 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:10,510 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:10,702 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1491376, Offset=524560
+2024-05-02 02:10:10,703 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   26%}
+2024-05-02 02:10:10,703 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:10,703 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:11,061 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:11,260 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1425840, Offset=590096
+2024-05-02 02:10:11,260 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   29%}
+2024-05-02 02:10:11,261 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:11,261 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:11,613 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:11,803 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1360304, Offset=655632
+2024-05-02 02:10:11,804 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   32%}
+2024-05-02 02:10:11,804 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:11,804 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:12,162 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:12,347 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1294768, Offset=721168
+2024-05-02 02:10:12,348 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   35%}
+2024-05-02 02:10:12,348 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:12,348 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:12,704 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:12,891 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1229232, Offset=786704
+2024-05-02 02:10:12,892 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   39%}
+2024-05-02 02:10:12,892 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:12,892 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:13,257 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:13,449 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1163696, Offset=852240
+2024-05-02 02:10:13,450 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   42%}
+2024-05-02 02:10:13,450 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:13,450 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:13,815 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:14,010 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1098160, Offset=917776
+2024-05-02 02:10:14,011 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   45%}
+2024-05-02 02:10:14,011 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:14,011 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:14,361 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:14,556 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=1032624, Offset=983312
+2024-05-02 02:10:14,557 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   48%}
+2024-05-02 02:10:14,557 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:14,557 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:14,920 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:15,110 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=967088, Offset=1048848
+2024-05-02 02:10:15,111 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   52%}
+2024-05-02 02:10:15,111 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:15,111 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:15,476 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:15,673 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=901552, Offset=1114384
+2024-05-02 02:10:15,673 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   55%}
+2024-05-02 02:10:15,674 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:15,674 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:16,031 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:16,218 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=836016, Offset=1179920
+2024-05-02 02:10:16,219 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   58%}
+2024-05-02 02:10:16,219 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:16,219 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:16,577 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:16,763 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=770480, Offset=1245456
+2024-05-02 02:10:16,764 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   61%}
+2024-05-02 02:10:16,764 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:16,764 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:17,133 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:17,322 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=704944, Offset=1310992
+2024-05-02 02:10:17,322 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   65%}
+2024-05-02 02:10:17,323 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:17,323 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:17,688 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:17,882 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=639408, Offset=1376528
+2024-05-02 02:10:17,883 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   68%}
+2024-05-02 02:10:17,883 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:17,883 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:18,225 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:18,425 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=573872, Offset=1442064
+2024-05-02 02:10:18,426 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   71%}
+2024-05-02 02:10:18,426 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:18,426 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:18,781 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:18,982 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=508336, Offset=1507600
+2024-05-02 02:10:18,983 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   74%}
+2024-05-02 02:10:18,983 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:18,983 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:19,335 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:19,528 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=442800, Offset=1573136
+2024-05-02 02:10:19,529 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   78%}
+2024-05-02 02:10:19,529 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:19,530 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:19,893 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:20,087 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=377264, Offset=1638672
+2024-05-02 02:10:20,088 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   81%}
+2024-05-02 02:10:20,088 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:20,088 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:20,432 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:20,630 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=311728, Offset=1704208
+2024-05-02 02:10:20,631 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   84%}
+2024-05-02 02:10:20,631 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:20,631 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:20,982 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:21,175 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=246192, Offset=1769744
+2024-05-02 02:10:21,176 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   87%}
+2024-05-02 02:10:21,176 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:21,176 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:21,535 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:21,736 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=180656, Offset=1835280
+2024-05-02 02:10:21,737 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   91%}
+2024-05-02 02:10:21,737 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:21,737 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:22,084 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:22,284 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=115120, Offset=1900816
+2024-05-02 02:10:22,284 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   94%}
+2024-05-02 02:10:22,285 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:22,285 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:22,641 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:22,840 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=49584, Offset=1966352
+2024-05-02 02:10:22,841 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   97%}
+2024-05-02 02:10:22,841 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:22,841 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:23,092 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:23,275 [Process-19208] INFO     [Thread0]    imginfo.size=2015936, RemainLen=0, Offset=1966352
+2024-05-02 02:10:23,276 [Process-19208] INFO     [Thread0]    {ap_demo-flash.bin-percent files transferred   100%}
+2024-05-02 02:10:23,276 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:23,276 [Process-19208] INFO     [Thread0]    TryDownload success
+2024-05-02 02:10:23,277 [Process-19208] INFO     [Thread0]    Burn OK!
+2024-05-02 02:10:23,277 [Process-19208] INFO     [Thread0]    ProcessEnd[18784]
+2024-05-02 02:10:23,277 [Process-19208] INFO     [FlashTop]    do_main: cmd burnone, Thread0[18784]
+2024-05-02 02:10:23,280 [Process-19208] INFO     [Thread0]    ProcessStart[18784]
+2024-05-02 02:10:23,280 [Process-19208] INFO     [Thread0]    ResetBoard skip for straight download
+2024-05-02 02:10:23,280 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:23,280 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:23,284 [Process-19208] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:23,284 [Process-19208] INFO     [Thread0]    agentboot is downloaded already
+2024-05-02 02:10:23,284 [Process-19208] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:10:23,285 [Process-19208] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:23,285 [Process-19208] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:23,285 [Process-19208] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:10:23,288 [Process-19208] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:23,288 [Process-19208] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:10:23,299 [Process-19208] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:10:23,302 [Process-19208] INFO     [Thread0]    LPCSyncDetect: success
+2024-05-02 02:10:23,302 [Process-19208] INFO     [Thread0]    DownloadBurnOne imgtype(cp_system)
+2024-05-02 02:10:23,302 [Process-19208] INFO     [Thread0]    DownloadBurnOne imgtype(cp_system), burnaddr(0x0), imgid(0x43504249)
+2024-05-02 02:10:23,302 [Process-19208] INFO     [Thread0]    DownloadBurnOne file D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\image_ec618\cp-demo-flash.bin 
+2024-05-02 02:10:23,305 [Process-19208] WARNING  [Image]    UpdateDribbleCfg before burnaddr config
+2024-05-02 02:10:23,305 [Process-19208] INFO     [Image]    Update Image Body Hash  b'\xdc\xf1\x0c\x50\xa1\x11\x41\x9a\x9b\xf1\x73\xad\x1c\x13\xe4\xfd\xef\xf3\xcc\x66\xe0\xbf\x1b\x52\xf0\xfd\xfd\xe9\x05\x7f\x32\xfd'
+2024-05-02 02:10:23,305 [Process-19208] INFO     [Image]    Update Image Head Hash  b'\x1a\x95\x74\xf5\x4a\x5d\xe5\xba\x18\xe2\x88\xe8\x60\xa0\x8d\xdd\x26\x9d\xa7\x8b\xfd\xd0\xfa\xae\x4f\x0c\xd2\x6c\x21\x9a\x36\x88'
+2024-05-02 02:10:23,308 [Process-19208] INFO     [Thread0]    TryDownload D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\image_ec618\cp-demo-flash.bin start
+2024-05-02 02:10:23,308 [Process-19208] INFO     [Thread0]    TryDownload CP Image.
+2024-05-02 02:10:23,308 [Process-19208] INFO     [Thread0]    LPCBurnOneTrig(Ext) start       			******
+2024-05-02 02:10:23,313 [Process-19208] INFO     [Thread0]    LPCBurnOneTrig success
+2024-05-02 02:10:23,313 [Process-19208] INFO     [Thread0]    DLDPreSync Preamble Send
+2024-05-02 02:10:23,837 [Process-19208] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2024-05-02 02:10:23,840 [Process-19208] INFO     [Thread0]    image size=465628, hdsize=272
+2024-05-02 02:10:23,840 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:23,841 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=465628, Offset=0
+2024-05-02 02:10:23,841 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   0%}
+2024-05-02 02:10:23,841 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:23,841 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:23,852 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:23,858 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=465356, Offset=272
+2024-05-02 02:10:23,858 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   0%}
+2024-05-02 02:10:23,859 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:23,859 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:23,865 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:24,055 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=399820, Offset=65808
+2024-05-02 02:10:24,056 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   14%}
+2024-05-02 02:10:24,056 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:24,056 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:24,091 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:24,288 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=334284, Offset=131344
+2024-05-02 02:10:24,289 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   28%}
+2024-05-02 02:10:24,289 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:24,289 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:24,328 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:24,523 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=268748, Offset=196880
+2024-05-02 02:10:24,524 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   42%}
+2024-05-02 02:10:24,524 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:24,524 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:24,561 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:24,754 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=203212, Offset=262416
+2024-05-02 02:10:24,755 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   56%}
+2024-05-02 02:10:24,755 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:24,755 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:24,785 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:24,973 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=137676, Offset=327952
+2024-05-02 02:10:24,974 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   70%}
+2024-05-02 02:10:24,974 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:24,974 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:25,022 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:25,222 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=72140, Offset=393488
+2024-05-02 02:10:25,223 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   84%}
+2024-05-02 02:10:25,223 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:25,223 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:25,248 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:25,437 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=6604, Offset=459024
+2024-05-02 02:10:25,438 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   98%}
+2024-05-02 02:10:25,438 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:25,438 [Process-19208] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:25,549 [Process-19208] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:25,719 [Process-19208] INFO     [Thread0]    imginfo.size=465628, RemainLen=0, Offset=459024
+2024-05-02 02:10:25,719 [Process-19208] INFO     [Thread0]    {cp-demo-flash.bin-percent files transferred   100%}
+2024-05-02 02:10:25,719 [Process-19208] INFO     [Thread0]    
+2024-05-02 02:10:25,720 [Process-19208] INFO     [Thread0]    TryDownload success
+2024-05-02 02:10:25,720 [Process-19208] INFO     [Thread0]    Burn OK!
+2024-05-02 02:10:25,721 [Process-19208] INFO     [Thread0]    ProcessEnd[18784]
+2024-05-02 02:10:25,721 [Process-19208] INFO     [FlashToolCLI]    Burnbatch OK, imglist ['bootloader', 'system', 'cp_system']
+2024-05-02 02:10:26,545 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000517,build time-2023-11-10 14:08:19
+2024-05-02 02:10:26,547 INFO     [FlashTop]    init
+2024-05-02 02:10:26,552 INFO     [FlashTop]    PreLoad para sync success
+2024-05-02 02:10:26,552 [Process-10116] INFO     [FlashTop]    do_main: cmd loadpara
+2024-05-02 02:10:26,552 [Process-10116] INFO     [FlashTop]    loadpara args 0x11b90b0 
+2024-05-02 02:10:26,557 [Process-10116] INFO     [PRFrame]    LoadPrMgrProc init loaded D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\PRMgrCfg.json
+2024-05-02 02:10:26,558 [Process-10116] INFO     [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+2024-05-02 02:10:26,560 [Process-10116] INFO     [Para]    LoadPara from cfgfile(D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\config_ec618_usb.ini) 
+2024-05-02 02:10:26,561 [Process-10116] ERROR    [Para]    invalid config, pkg extract pkg "D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\image_ec618\pkgdir\merge.binpkg"
+2024-05-02 02:10:26,561 [Process-10116] INFO     [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+2024-05-02 02:10:26,562 [Process-10116] INFO     [PRFrame]    LdXPKPrMgrProc  not exist
+2024-05-02 02:10:26,563 [Process-10116] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\rfCaliTb_ec618\MergeRfTable.bin, burnaddr 0xe7000
+2024-05-02 02:10:26,564 [Process-10116] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\rfCaliTb_ec618\MergeRfTable.bin, burnaddr 0xce000
+2024-05-02 02:10:26,564 [Process-10116] INFO     [Para]    LoadPkgFlx
+2024-05-02 02:10:26,565 [Process-10116] INFO     [FlashTop]    Load para sync success
+2024-05-02 02:10:26,566 [Process-10116] INFO     [FlashTop]    LoadParaToArgs id args 0x11b90b0, opt_storage_list 0x2ffbb88 "cp_flash"
+2024-05-02 02:10:26,567 [Process-10116] INFO     [FlashTop]    do_main: cmd sysreset, Thread0[20588]
+2024-05-02 02:10:26,570 [Process-10116] INFO     [Thread0]    ProcessStart[20588]
+2024-05-02 02:10:26,570 [Process-10116] INFO     [Thread0]    ResetBoard skip for straight download
+2024-05-02 02:10:26,570 [Process-10116] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:26,570 [Process-10116] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:26,574 [Process-10116] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:26,574 [Process-10116] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:10:26,576 [Process-10116] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:26,576 [Process-10116] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:26,577 [Process-10116] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:10:26,580 [Process-10116] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:26,580 [Process-10116] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:10:26,591 [Process-10116] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:10:26,595 [Process-10116] INFO     [Thread0]    LPCSetSyncStat(1)
+2024-05-02 02:10:26,596 [Process-10116] WARNING  [Thread0]    FixSysResetRspLen, start
+2024-05-02 02:10:26,596 [Process-10116] INFO     [Thread0]    ResetSyncStat
+2024-05-02 02:10:26,596 [Process-10116] INFO     [FlashTop]    sysreset finish, Thread0[20588]
+2024-05-02 02:10:26,597 [Process-10116] INFO     [Thread0]    ProcessEnd[20588]
+2024-05-02 02:10:44,398 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000517,build time-2023-11-10 14:08:19
+2024-05-02 02:10:44,399 INFO     [FlashTop]    init
+2024-05-02 02:10:44,404 INFO     [FlashTop]    PreLoad para sync success
+2024-05-02 02:10:44,404 [Process-16756] INFO     [FlashTop]    do_main: cmd loadpara
+2024-05-02 02:10:44,404 [Process-16756] INFO     [FlashTop]    loadpara args 0x3840250 
+2024-05-02 02:10:44,409 [Process-16756] INFO     [PRFrame]    LoadPrMgrProc init loaded D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\PRMgrCfg.json
+2024-05-02 02:10:44,409 [Process-16756] INFO     [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+2024-05-02 02:10:44,412 [Process-16756] INFO     [Para]    LoadPara from cfgfile(D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\ec618_luatos_usb.ini) 
+2024-05-02 02:10:44,413 [Process-16756] INFO     [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+2024-05-02 02:10:44,413 [Process-16756] INFO     [PRFrame]    LdXPKPrMgrProc  not exist
+2024-05-02 02:10:44,415 [Process-16756] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xe7000
+2024-05-02 02:10:44,415 [Process-16756] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\MergeRfTable_ec618.bin, burnaddr 0xce000
+2024-05-02 02:10:44,415 [Process-16756] INFO     [Para]    LoadPkgFlx
+2024-05-02 02:10:44,417 [Process-16756] INFO     [FlashTop]    Load para sync success
+2024-05-02 02:10:44,417 [Process-16756] INFO     [FlashTop]    LoadParaToArgs id args 0x3840250, opt_storage_list 0x3a34f98 "cp_flash"
+2024-05-02 02:10:44,418 [Process-16756] INFO     [FlashToolCLI]    Burnbatch Start, burn imglist ['flexfile2'].
+2024-05-02 02:10:44,418 [Process-16756] INFO     [FlashTop]    do_main: cmd burnag, Thread0[4972]
+2024-05-02 02:10:44,421 [Process-16756] INFO     [Thread0]    ProcessStart[4972]
+2024-05-02 02:10:44,421 [Process-16756] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:44,421 [Process-16756] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:44,425 [Process-16756] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:44,425 [Process-16756] INFO     [Thread0]    DtrConditionAssign  1
+2024-05-02 02:10:44,425 [Process-16756] INFO     [Thread0]    RtsConditionAssign  1
+2024-05-02 02:10:44,936 [Process-16756] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:45,449 [Process-16756] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:45,449 [Process-16756] INFO     [Thread0]    ResetBoard(Normal Mod) finish
+2024-05-02 02:10:45,450 [Process-16756] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:45,450 [Process-16756] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:45,450 [Process-16756] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:45,450 [Process-16756] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:45,454 [Process-16756] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:45,455 [Process-16756] INFO     [Image]    pullup_qspi 1
+2024-05-02 02:10:45,455 [Process-16756] INFO     [Image]    genimghd args id 0x3a4b6d0, opt_storage_list refcnt 6, id 0x3a34f98 
+2024-05-02 02:10:45,455 [Process-16756] INFO     [Image]    SetBaud 921600
+2024-05-02 02:10:45,455 [Process-16756] INFO     [Image]    Update Image Head Hash  b'\xe8\xe0\xc4\xd3\xfa\x65\x86\x52\x38\xe4\x0e\xe4\x83\xac\xcf\xcd\x74\x7e\xda\x68\x26\x92\x96\xab\xac\x86\xb3\x2c\x80\x9e\x74\x40'
+2024-05-02 02:10:45,456 [Process-16756] INFO     [Thread0]    TryDownload D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\agentboot_usb.bin start
+2024-05-02 02:10:45,456 [Process-16756] INFO     [Thread0]    image size=44984, hdsize=272
+2024-05-02 02:10:45,456 [Process-16756] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:45,463 [Process-16756] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:45,468 [Process-16756] INFO     [Thread0]    CompRomVerIntSingle 0000000201000000 suc
+2024-05-02 02:10:45,468 [Process-16756] INFO     [Thread0]    RVer 0000000201000000, chk suc, compare with version
+2024-05-02 02:10:45,471 [Process-16756] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:45,477 [Process-16756] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:45,481 [Process-16756] INFO     [Thread0]    CompRomVerIntSingle 0000000201000000 suc
+2024-05-02 02:10:45,481 [Process-16756] INFO     [Thread0]    RVer 0000000201000000, chk suc, compare with version
+2024-05-02 02:10:45,562 [Process-16756] INFO     [Thread0]    TryDownload agentboot success
+2024-05-02 02:10:45,578 [Process-16756] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:45,578 [Process-16756] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:45,578 [Process-16756] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:10:45,582 [Process-16756] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:45,582 [Process-16756] INFO     [Thread0]    Burn OK!
+2024-05-02 02:10:45,582 [Process-16756] INFO     [Thread0]    ProcessEnd[4972]
+2024-05-02 02:10:45,582 [Process-16756] INFO     [FlashTop]    do_main: cmd burnone, Thread0[4972]
+2024-05-02 02:10:45,585 [Process-16756] INFO     [Thread0]    ProcessStart[4972]
+2024-05-02 02:10:45,586 [Process-16756] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:45,586 [Process-16756] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:45,589 [Process-16756] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:45,590 [Process-16756] INFO     [Thread0]    agentboot is downloaded already
+2024-05-02 02:10:45,590 [Process-16756] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:10:45,590 [Process-16756] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:45,590 [Process-16756] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:45,590 [Process-16756] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:10:45,594 [Process-16756] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:45,594 [Process-16756] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:10:45,601 [Process-16756] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:10:45,604 [Process-16756] INFO     [Thread0]    LPCSetSyncStat(1)
+2024-05-02 02:10:45,604 [Process-16756] INFO     [Thread0]    LPCSyncDetect: success
+2024-05-02 02:10:45,605 [Process-16756] INFO     [Thread0]    DownloadBurnOne imgtype(flexfile2)
+2024-05-02 02:10:45,605 [Process-16756] INFO     [Thread0]    DownloadBurnOne imgtype(flexfile2), burnaddr(0x24d000), imgid(0x464c5849)
+2024-05-02 02:10:45,605 [Process-16756] INFO     [Thread0]    DownloadBurnOne file D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\script.bin 
+2024-05-02 02:10:45,606 [Process-16756] INFO     [Image]    Update Image Body Hash  b'\x1c\x8f\x84\x2c\x61\x71\xf2\xcd\xff\x53\x2c\xce\x74\x26\xfd\x08\xaa\xbb\xb0\x3f\xc0\x80\x5b\x2e\xe0\x68\xa0\x25\xd3\x57\x70\x39'
+2024-05-02 02:10:45,606 [Process-16756] INFO     [Image]    Update Image Head Hash  b'\x83\x49\x55\xc0\x0e\x08\x1f\x81\x88\xcc\x44\x1b\xa7\xb1\x7b\x78\xd5\x0f\xfa\xf7\x77\x74\x07\x9a\xea\xe3\xd1\xe7\xc8\x50\x55\x7e'
+2024-05-02 02:10:45,606 [Process-16756] INFO     [Thread0]    TryDownload D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\script.bin start
+2024-05-02 02:10:45,606 [Process-16756] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2024-05-02 02:10:45,611 [Process-16756] INFO     [Thread0]    LPCBurnOneTrig success
+2024-05-02 02:10:45,611 [Process-16756] INFO     [Thread0]    DLDPreSync Preamble Send
+2024-05-02 02:10:46,133 [Process-16756] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2024-05-02 02:10:46,138 [Process-16756] INFO     [Thread0]    image size=1745, hdsize=272
+2024-05-02 02:10:46,138 [Process-16756] INFO     [Thread0]    
+2024-05-02 02:10:46,138 [Process-16756] INFO     [Thread0]    imginfo.size=1745, RemainLen=1745, Offset=0
+2024-05-02 02:10:46,139 [Process-16756] INFO     [Thread0]    {script.bin-percent files transferred   0%}
+2024-05-02 02:10:46,139 [Process-16756] INFO     [Thread0]    
+2024-05-02 02:10:46,139 [Process-16756] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:46,150 [Process-16756] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:46,154 [Process-16756] INFO     [Thread0]    imginfo.size=1745, RemainLen=1473, Offset=272
+2024-05-02 02:10:46,155 [Process-16756] INFO     [Thread0]    {script.bin-percent files transferred   15%}
+2024-05-02 02:10:46,155 [Process-16756] INFO     [Thread0]    
+2024-05-02 02:10:46,155 [Process-16756] INFO     [Thread0]    Preamble Send
+2024-05-02 02:10:46,203 [Process-16756] INFO     [Thread0]    Preamble Received Rsp
+2024-05-02 02:10:46,365 [Process-16756] INFO     [Thread0]    imginfo.size=1745, RemainLen=0, Offset=272
+2024-05-02 02:10:46,365 [Process-16756] INFO     [Thread0]    {script.bin-percent files transferred   100%}
+2024-05-02 02:10:46,365 [Process-16756] INFO     [Thread0]    
+2024-05-02 02:10:46,366 [Process-16756] INFO     [Thread0]    TryDownload success
+2024-05-02 02:10:46,367 [Process-16756] INFO     [Thread0]    Burn OK!
+2024-05-02 02:10:46,367 [Process-16756] INFO     [Thread0]    ProcessEnd[4972]
+2024-05-02 02:10:46,367 [Process-16756] INFO     [FlashToolCLI]    Burnbatch OK, imglist ['flexfile2']
+2024-05-02 02:10:47,244 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000517,build time-2023-11-10 14:08:19
+2024-05-02 02:10:47,245 INFO     [FlashTop]    init
+2024-05-02 02:10:47,249 INFO     [FlashTop]    PreLoad para sync success
+2024-05-02 02:10:47,249 [Process-1356] INFO     [FlashTop]    do_main: cmd loadpara
+2024-05-02 02:10:47,249 [Process-1356] INFO     [FlashTop]    loadpara args 0x2f71910 
+2024-05-02 02:10:47,254 [Process-1356] INFO     [PRFrame]    LoadPrMgrProc init loaded D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\PRMgrCfg.json
+2024-05-02 02:10:47,255 [Process-1356] INFO     [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+2024-05-02 02:10:47,257 [Process-1356] INFO     [Para]    LoadPara from cfgfile(D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\config_ec618_usb.ini) 
+2024-05-02 02:10:47,258 [Process-1356] ERROR    [Para]    invalid config, pkg extract pkg "D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\image_ec618\pkgdir\merge.binpkg"
+2024-05-02 02:10:47,258 [Process-1356] INFO     [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+2024-05-02 02:10:47,259 [Process-1356] INFO     [PRFrame]    LdXPKPrMgrProc  not exist
+2024-05-02 02:10:47,260 [Process-1356] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\rfCaliTb_ec618\MergeRfTable.bin, burnaddr 0xe7000
+2024-05-02 02:10:47,261 [Process-1356] ERROR    [Para]    invalid config, filepath:D:\Project\Lua_project\AIR7XX\sdk_demo_env\_temp\ec_download\rfCaliTb_ec618\MergeRfTable.bin, burnaddr 0xce000
+2024-05-02 02:10:47,261 [Process-1356] INFO     [Para]    LoadPkgFlx
+2024-05-02 02:10:47,263 [Process-1356] INFO     [FlashTop]    Load para sync success
+2024-05-02 02:10:47,263 [Process-1356] INFO     [FlashTop]    LoadParaToArgs id args 0x2f71910, opt_storage_list 0x316be30 "cp_flash"
+2024-05-02 02:10:47,264 [Process-1356] INFO     [FlashTop]    do_main: cmd sysreset, Thread0[17280]
+2024-05-02 02:10:47,267 [Process-1356] INFO     [Thread0]    ProcessStart[17280]
+2024-05-02 02:10:47,267 [Process-1356] INFO     [Thread0]    ResetBoard skip for straight download
+2024-05-02 02:10:47,267 [Process-1356] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:47,267 [Process-1356] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:47,271 [Process-1356] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:47,271 [Process-1356] INFO     [Thread0]    TryDownload agentboot skip
+2024-05-02 02:10:47,272 [Process-1356] INFO     [Thread0]    DtrConditionAssign  0
+2024-05-02 02:10:47,273 [Process-1356] INFO     [Thread0]    RtsConditionAssign  0
+2024-05-02 02:10:47,273 [Process-1356] INFO     [Thread0]    agbaud: 921600
+2024-05-02 02:10:47,276 [Process-1356] WARNING  [Thread0]    UpdateRomVComFlag  platform  not match Linux
+2024-05-02 02:10:47,277 [Process-1356] INFO     [Thread0]    LPC Preamble Send
+2024-05-02 02:10:47,287 [Process-1356] INFO     [Thread0]    LPC Preamble Received Rsp
+2024-05-02 02:10:47,291 [Process-1356] INFO     [Thread0]    LPCSetSyncStat(1)
+2024-05-02 02:10:47,292 [Process-1356] WARNING  [Thread0]    FixSysResetRspLen, start
+2024-05-02 02:10:47,292 [Process-1356] INFO     [Thread0]    ResetSyncStat
+2024-05-02 02:10:47,292 [Process-1356] INFO     [FlashTop]    sysreset finish, Thread0[17280]
+2024-05-02 02:10:47,292 [Process-1356] INFO     [Thread0]    ProcessEnd[17280]
