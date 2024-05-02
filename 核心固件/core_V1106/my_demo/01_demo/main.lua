@@ -9,12 +9,12 @@ sys.timerLoopStart(function()
     print("Test Latus\r\n")
 end, 1000)
 
-local uartid = 1 -- ¸ù¾İÊµ¼ÊÉè±¸Ñ¡È¡²»Í¬µÄuartid
--- ³õÊ¼»¯
-local result = uart.setup(uartid, -- ´®¿Úid
-115200, -- ²¨ÌØÂÊ
-8, -- Êı¾İÎ»
-1 -- Í£Ö¹Î»
+local uartid = 1 -- æ ¹æ®å®é™…è®¾å¤‡é€‰å–ä¸åŒçš„uartid
+-- åˆå§‹åŒ–
+local result = uart.setup(uartid, -- ä¸²å£id
+115200, -- æ³¢ç‰¹ç‡
+8, -- æ•°æ®ä½
+1 -- åœæ­¢ä½
 )
 -- sys.taskInit(function()
 --     while 0 do
@@ -24,18 +24,17 @@ local result = uart.setup(uartid, -- ´®¿Úid
 -- sys.taskInit(function()
 --     while 0 do
 --         uart.write(uartid,
---             "ÄãºÃÕâ¸öÊÇÒ»¸ö²âÊÔÄãºÃÕâ¸öÊÇÒ»¸ö²âÊÔÄãºÃÕâ¸öÊÇÒ»¸ö²âÊÔÄãºÃÕâ¸öÊÇÒ»¸ö²âÊÔ\r\n");
+--             "ä½ å¥½è¿™ä¸ªæ˜¯ä¸€ä¸ªæµ‹è¯•ä½ å¥½è¿™ä¸ªæ˜¯ä¸€ä¸ªæµ‹è¯•ä½ å¥½è¿™ä¸ªæ˜¯ä¸€ä¸ªæµ‹è¯•ä½ å¥½è¿™ä¸ªæ˜¯ä¸€ä¸ªæµ‹è¯•\r\n");
 --         sys.wait(50)
 --     end
 -- end)
 -- sys.timerLoopStart(uart.write, 10000, uartid,
---     "ÄãºÃÕâ¸öÊÇÒ»¸ö²âÊÔÄãºÃÕâ¸öÊÇÒ»¸ö²âÊÔÄãºÃÕâ¸öÊÇÒ»¸ö²âÊÔÄãºÃÕâ¸öÊÇÒ»¸ö²âÊÔ\r\n")
+--     "ä½ å¥½è¿™ä¸ªæ˜¯ä¸€ä¸ªæµ‹è¯•ä½ å¥½è¿™ä¸ªæ˜¯ä¸€ä¸ªæµ‹è¯•ä½ å¥½è¿™ä¸ªæ˜¯ä¸€ä¸ªæµ‹è¯•ä½ å¥½è¿™ä¸ªæ˜¯ä¸€ä¸ªæµ‹è¯•\r\n")
 
 usart1_printf= function(s, ...)
     return uart.write(uartid,s:format(...))
 end
 usart1_printf("%s\n", "Hello World!")
-
 sys.taskInit(function()
     local str = ""
     while 1 do
